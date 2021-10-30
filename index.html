@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Inicio Header -->
+    <header class="banner" id="inicio"></header>
+    <!-- Fin Header -->
+
+    <!-- Inicio Menu de Navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-light navegBar" style="background-color: #90f14f;">
+        <div class="container-fluid menuNav">
+            <a class="navbar-brand" href="index.html">
+                <img src="./img/logo.JPG" alt="" width="80" height="80" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- Fin Menu de Navegacion -->
+
+    <!-- Inicio Main -->
+    <main>
+        <!-- Inicio Cont Principal -->
+        <div class="contPrincipal container-fluid">
+            <div class="tituloContPrin">
+                <h1 class="tituloGrande">Novedades</h1>
+            </div>
+            <div class="imgNovedad">
+                <img src="./img/novedad.png" alt="novedad">
+            </div>
+            <div class="novedadPromo">
+                <h2 class="tituloSecundario">Promociones:</h2>
+                <article class="texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab eius quasi, incidunt molestiae
+                    similique
+                    amet recusandae iure ipsum officia iste vero. Corporis quaerat fugit culpa, distinctio quas
+                    voluptates
+                    voluptas.
+                </article>
+            </div>
+            <div class="novedadOferta">
+                <h2 class="tituloSecundario">Ofertas:</h2>
+                <article class="texto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem ab eius quasi, incidunt molestiae
+                    similique
+                    amet recusandae iure ipsum officia iste vero. Corporis quaerat fugit culpa, distinctio quas
+                    voluptates
+                    voluptas.
+                </article>
+            </div>
+        </div>
+        <!-- Fin Cont Principal -->
+    </main>
+    <!-- Fin Main -->
+
+    <!-- Inicio Prod Destacados -->
+    <section class="contSecundario container-fluid">
+        <div class="tituloContSec">
+            <h2 class="tituloSecundario">Productos Destacados</h2>
+        </div>
+        <div class="container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="grogu">
+                            <img src="./img/grogu.jpeg" class="d-block" alt="grogu">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="grogu">
+                            <img src="./img/luna.jpeg" class="d-block w-50" alt="luna">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="macetas">
+                            <img src="./img/macetas.jpeg" class="d-block w-50" alt="macetas">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- Fin Prod Destacados -->
+
+    <!-- Inicio Footer -->
+    <footer class="container-fluid">
+        <div class="foot">
+            <!-- Inicio Info de Contacto -->
+            <div class="footInfo">
+                <h3 class="tituloTerciario">Informacion de Contacto</h3>
+                <ul class="footTexto">
+                    <li>Dirección: Francisco N. Laprida 814 Oeste San Juan</li>
+                    <li>Teléfono: +542644572233</li>
+                    <li>Mail: lambda3d@gmail.com</li>
+                </ul>
+            </div>
+            <!-- Fin Info de Contacto -->
+            <!-- Inicio Redes -->
+            <div class="footRedes">
+                <h3 class="tituloTerciario">Seguinos en Nuestras Redes:</h3>
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <!-- Fin Redes -->
+            <!-- Inicio Logo con link hacia Arriba -->
+            <div class="footBoton">
+                <a href="#inicio">
+                    <button class="footLogo">
+                        <!-- <img src="./img/arriba.jpg" alt=""> -->
+                    </button>
+                </a>
+            </div>
+        </div>
+        <!-- Fin Logo con link hacia Arriba -->
+        <!-- Inico Copyright -->
+        <div class="footCopy">
+            <p class="footTexto">Copyright 2021: Gastón López</p>
+        </div>
+        <!-- Fin Copyright -->
+    </footer>
+    <!-- Fin Footer -->
+
+</body>
+<script src="https://kit.fontawesome.com/c091e997ce.js" crossorigin="anonymous"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+
+</html>
